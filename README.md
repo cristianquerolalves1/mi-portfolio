@@ -1,4 +1,4 @@
-[![Banner del Portafolio](banner.png)](https://cristianquerolalves.com)
+[![Banner del Portafolio](image.png)](https://cristianquerolalves.com)
 
 
 <div align="center">
