@@ -1,0 +1,521 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Syed Mohsin's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Syed Mohsin's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Syed Mohsin's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Cristian Querol Alves</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Inicio</a></li>
+          <li class="nav-item"><a href="#work">Mi trabajo</a></li>
+          <li class="nav-item"><a href="#skills">Mis Habilidades</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contacto</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <h1 class="h1">
+            <span>Hola, soy Cristian</span>
+            <span>Software Developer</span>
+          </h1>
+
+          <p class="header-text">
+            Soy un desarrollador frontend apasionado por la programación y el diseño de interfaces. Me gusta crear sitios web y aplicaciones accesibles, eficientes y visualmente atractivas, y disfruto aprendiendo nuevas tecnologías constantemente.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Contrátame</a>
+            <a href="#work" class="btn btn-secondary">Ver mi trabajo</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+<main>
+<section class="client">
+  <div class="container">
+    <h2 class="h2">He trabajado con</h2>
+    <div class="logos">
+
+      <a href="https://github.com/cristianquerolalves1/Moon-Vision" target="_blank" rel="noopener" class="logo" title="Moon Vision" aria-label="Moon Vision">
+        <ion-icon name="moon-outline"></ion-icon>
+        <span>Moon Vision</span>
+      </a>
+
+      <a href="https://fivem.net/" target="_blank" rel="noopener" class="logo" title="FiveM" aria-label="FiveM">
+        <ion-icon name="game-controller-outline"></ion-icon>
+        <span>FiveM</span>
+      </a>
+
+      <a href="https://twitter.com/ElMohikano_" target="_blank" rel="noopener" class="logo" title="ElMohikano_" aria-label="ElMohikano_">
+        <ion-icon name="rocket-outline"></ion-icon>
+        <span>ElMohikano_</span>
+      </a>
+
+      <a href="https://github.com/cristianquerolalves1/Moon-Vision/blob/main/docs/sistemas/moon_id.md" target="_blank" rel="noopener" class="logo" title="Moon ID" aria-label="Moon ID">
+        <ion-icon name="bag-outline"></ion-icon>
+        <span>Moon ID</span>
+      </a>
+
+      <a href="https://twitch.tv/cristianquerool" target="_blank" rel="noopener" class="logo" title="Twitch" aria-label="Twitch">
+        <ion-icon name="logo-twitch"></ion-icon>
+        <span>Twitch</span>
+      </a>
+
+      <a href="https://gitlab.com" target="_blank" rel="noopener" class="logo" title="GitLab" aria-label="GitLab">
+        <ion-icon name="code-slash-outline"></ion-icon>
+        <span>GitLab</span>
+      </a>
+
+      <a href="https://duolingo.com" target="_blank" rel="noopener" class="logo" title="Duolingo" aria-label="Duolingo">
+        <ion-icon name="school-outline"></ion-icon>
+        <span>Duolingo</span>
+      </a>
+
+      <a href="https://discord.com/developers" target="_blank" rel="noopener" class="logo" title="Discord" aria-label="Discord">
+        <ion-icon name="logo-discord"></ion-icon>
+        <span>Discord</span>
+      </a>
+
+      <a href="https://top.gg/" target="_blank" rel="noopener" class="logo" title="Top.gg" aria-label="Top.gg">
+        <ion-icon name="paw-outline"></ion-icon>
+        <span>Top.gg</span>
+      </a>
+
+      <a href="https://astrato.com" target="_blank" rel="noopener" class="logo" title="Astrato" aria-label="Astrato">
+        <ion-icon name="aperture-outline"></ion-icon>
+        <span>Astrato</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Proyectos Destacados</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+       
+                <h3 class="h3">Moon Visual</h3>
+               
+                <p class="work-text">
+                 Mi proyecto más reciente: un portafolio y plataforma interactiva con estilo futurista y glassmorphism,
+                </p>
+               
+                <ol class="work-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Node.js</li>
+                  <li>MongoDB</li>
+                  <li>Lua</li>
+                  <li>Express</li>
+                </ol>
+
+                <div class="work-links">
+               
+                  <a href="https://github.com/cristianquerolalves1" target="_blank" rel="noopener" class="link"
+                    >Explorar proyecto</a
+                  >
+
+                
+                  <a
+                    href="https://github.com/cristianquerolalves1"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+
+     
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/moon-visual.jpg"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+        </div>
+      </section>
+
+     
+   
+<section class="skills">
+  <div class="container">
+    <h2 class="h2" id="skills">Mi Caja de Herramientas</h2>
+    <div class="skills-grid">
+      <div class="skill-card" title="HTML5">
+        <ion-icon name="logo-html5" size="large"></ion-icon>
+        <span>HTML5</span>
+      </div>
+      <div class="skill-card" title="CSS3">
+        <ion-icon name="logo-css3" size="large"></ion-icon>
+        <span>CSS</span>
+      </div>
+      <div class="skill-card" title="JavaScript">
+        <ion-icon name="logo-javascript" size="large"></ion-icon>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-card" title="Lua">
+        <ion-icon name="code-slash-outline" size="large"></ion-icon>
+        <span>Lua</span>
+      </div>
+      <div class="skill-card" title="Node.js">
+        <ion-icon name="logo-nodejs" size="large"></ion-icon>
+        <span>Node.js</span>
+      </div>
+      <div class="skill-card" title="MegaDB">
+        <ion-icon name="server-outline" size="large"></ion-icon>
+        <span>MegaDB</span>
+      </div>
+      <div class="skill-card" title="SQLite">
+        <ion-icon name="server-outline" size="large"></ion-icon>
+        <span>SQLite</span>
+      </div>
+      <div class="skill-card" title="MongoDB">
+        <ion-icon name="server-outline" size="large"></ion-icon>
+        <span>MongoDB</span>
+      </div>
+      <div class="skill-card" title="JSON">
+        <ion-icon name="document-text-outline" size="large"></ion-icon>
+        <span>JSON</span>
+      </div>
+      <div class="skill-card" title="Bootstrap">
+        <ion-icon name="terminal-outline" size="large"></ion-icon>
+        <span>Bootstrap</span>
+      </div>
+      <div class="skill-card" title="Git">
+        <ion-icon name="logo-github" size="large"></ion-icon>
+        <span>Git</span>
+      </div>
+      <div class="skill-card" title="npm">
+        <ion-icon name="logo-npm" size="large"></ion-icon>
+        <span>npm</span>
+      </div>
+      <div class="skill-card" title="Yarn">
+        <ion-icon name="color-palette-outline" size="large"></ion-icon>
+        <span>Yarn</span>
+      </div>
+      <div class="skill-card" title="VS Code">
+        <ion-icon name="logo-windows" size="large"></ion-icon>
+        <span>VS Code</span>
+      </div>
+      <div class="skill-card" title="Python">
+        <ion-icon name="logo-python" size="large"></ion-icon>
+        <span>Python</span>
+      </div>
+          <div class="skill-card" title="Terminal / Shell">
+        <ion-icon name="terminal-outline" size="large"></ion-icon>
+        <span>Terminal</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ 
+
+      <section>
+        <h2 class="h2">Testimonios</h2>
+        <div class="container">
+          <ol class="testimonials">
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Cristian es un profesional creativo y meticuloso. Su pasión por la programación y el diseño se refleja en cada proyecto que desarrolla.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/rich-harris.png"
+                  alt="Rich Harris"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Andrés Martínez</h3>
+                  <p class="testimonial-author-job">CTO @Moon Studio</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Gran desarrollador frontend y backend. Siempre busca optimizar y mejorar la experiencia de usuario.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/frank-mcsherry.webp"
+                  alt="Andrew Mead"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">
+                   Andrew Mead
+                  </h3>
+                  <p class="testimonial-author-job">Colaborador en Moon Visual
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+             
+                Cristian tiene un entendimiento profundo de tecnologías como Node.js, MongoDB y TypeScript. Es capaz de enfrentar problemas complejos y siempre encuentra soluciones elegantes y bien documentadas.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/brian-hirsh.png"
+                  alt="Brian Hirsh"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Miguel Torres</h3>
+                  <p class="testimonial-author-job">Lead Developer @CodeBase</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+               Cristian no solo domina el código, también entiende el diseño y la experiencia de usuario. Sus interfaces son funcionales y estéticamente impecables.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/adam.png"
+                  alt="Adam Argalye"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Carlos Panal</h3>
+                  <p class="testimonial-author-job">UI/UX Designer @CreativeLab</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+              Cristian es un profesional comprometido y proactivo. Su capacidad para entregar proyectos de manera autónoma y efectiva lo convierte en un recurso invaluable para cualquier equipo.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/val-head.png"
+                  alt="Val Head"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Javier Ortega</h3>
+                  <p class="testimonial-author-job">CEO @Skyline Apps</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Su combinación de habilidades técnicas y pasión por la programación es excepcional. Cristian siempre busca aprender nuevas tecnologías y aplicarlas de manera práctica y creativa.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/tim-satterwhite.webp"
+                  alt="Gary Simon"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Rodrigo Lopéz</h3>
+                  <p class="testimonial-author-job">Frontend Developer @Moon Academy</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Contacto</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+           
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Disponible para contratación
+              </strong>
+              <p class="contact-text">
+          Como desarrollador de software, construyo interfaces web y sistemas de diseño con especial atención a la accesibilidad y el rendimiento. Me gusta programar desde cero y dar vida a nuevas ideas.
+Además, disfruto del desarrollo open-source y, en mi tiempo libre, me apasiona la aviación y el arte digital.
+              </p>
+              <p class="contact-text">
+                Soy desarrollador de software apasionado por la programación, la accesibilidad y el diseño de interfaces. Me encanta crear proyectos desde cero y aprender nuevas tecnologías.
+              </p>
+           
+                <div class="signatures">
+                <ion-icon name="moon-outline"></ion-icon>
+                <span>Cristian Querol Alves</span>
+              </div>
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Nombre completo</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Correo electrónico</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">Cómo puedo ayudarte?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+    
+ <nav>
+  <ol class="footer-links">
+    <li class="footer-link">
+      <a title="GitHub" href="https://github.com/cristianquerolalves1" target="_blank" rel="noopener">
+        <ion-icon name="logo-github" size="large"></ion-icon>
+      </a>
+    </li>
+    <li class="footer-link">
+      <a title="Instagram" href="https://instagram.com/cristianquerolalves" target="_blank" rel="noopener">
+        <ion-icon name="logo-instagram" size="large"></ion-icon>
+      </a>
+    </li>
+    <li class="footer-link">
+      <a title="YouTube" href="https://youtube.com/@cristianquerolalves" target="_blank" rel="noopener">
+        <ion-icon name="logo-youtube" size="large"></ion-icon>
+      </a>
+    </li>
+    <li class="footer-link">
+      <a title="Twitch" href="https://twitch.tv/cristianquerool" target="_blank" rel="noopener">
+        <ion-icon name="logo-twitch" size="large"></ion-icon>
+      </a>
+    </li>
+  </ol>
+</nav>
+         <p class="footer-text">
+  &copy; <span>2025 Cristian Querol Alves</span> - Todos los derechos reservados.
+</p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Tema Oscuro</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
