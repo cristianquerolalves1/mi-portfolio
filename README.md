@@ -59,7 +59,7 @@ portfolio/
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/cristianquerolalves1/portfolio.git
+git clone https://github.com/cristianquerolalves1/mi-portfolio.git
 ```
 
 2. Abre `index.html` en cualquier navegador moderno para visualizarlo localmente.
