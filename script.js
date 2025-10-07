@@ -120,9 +120,9 @@ yearEl.textContent = new Date().getFullYear();
 const form = document.getElementById('contactForm');
 const response = document.getElementById('formResponse');
 
-if (form) { // Verifica que el form exista en la página
+if (form) {
   form.addEventListener('submit', async (e) => {
-    e.preventDefault(); // Evita recarga
+    e.preventDefault(); 
 
     const formData = new FormData(form);
     const action = form.action;
